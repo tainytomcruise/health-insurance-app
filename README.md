@@ -94,17 +94,16 @@ All preprocessing objects (scaler, encoders) and the trained model are saved usi
 
 ## 📂 Project Structure
 
-health-insurance-app/
-│
-├── app.py
-├── best_model.pkl
-├── scaler.pkl
-├── label_encoder_gender.pkl
-├── label_encoder_diabetic.pkl
-├── label_encoder_smoker.pkl
-├── notebook.ipynb
-├── requirements.txt
+```
+health-insurance-app
+├── app.py                    # Streamlit application
+├── notebook.ipynb            # Model training & experimentation
+├── best_model.pkl            # Trained ML model
+├── scaler.pkl                # Feature scaler
+├── label_encoder_*.pkl       # Encoders for categorical features
+├── requirements.txt          # Project dependencies
 └── README.md
+```
 
 ---
 
